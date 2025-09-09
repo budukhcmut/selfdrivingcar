@@ -1,0 +1,32 @@
+https://www.raspberrypi.com/software/
+https://www.youtube.com/watch?v=ntaXWS8Lk34
+
+
+target: 192.168.137.0/24 (wifi .0)
+Nmap
+VNCViewer
+
+Hướng dẫn cắm dây:https://pivietnam.com.vn/huong-dan-cach-dieu-khien-xe-mo-hinh-co-ban-voi-raspberry-pi-pivietnam-com-vn.html
+
+ln298-rasp
+in1 = 13
+in2 = 12
+in3 = 21
+in4 = 20
+en1 = 6
+en2 = 26
+
+sensor-rasp
+->demo(chú ý tham khảo cách cắm chân cắm không giống mình): https://www.youtube.com/watch?v=biZ5BJhiYzE
+vcc cắm vào đỏ thứ 2 từ trái qua
+GPIO_TRIGGER = 23
+GPIO_ECHO = 24
+out không cắm
+gnd cắm vào đen cuối cùng bên phải
+
+camera-rasp
+->demo: https://www.youtube.com/watch?v=nx8gDSS1vO4
+mặt trắng bên thanh trắng
+
+rap banh xe
+https://www.youtube.com/watch?v=2PA0f5edKsM
